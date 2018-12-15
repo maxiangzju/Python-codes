@@ -1,7 +1,7 @@
 newfile = open('newfile.tab', 'w')
 less2 = open('lessthan2.tab', 'w')
 
-fhand = open('96well-oligo.tab')
+fhand = open('oligo.tab')
 for line in fhand:
     line = line.strip()
     pool,well,num,gene,null,seq = line.split('\t')
