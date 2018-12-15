@@ -33,3 +33,4 @@ for q in query:
         num += r.seq.count_overlap(q) 
     count[q] = num
 print(sorted([(v,k) for k,v in count.items() if v > 30], reverse = True), file=outfile)
+ 
